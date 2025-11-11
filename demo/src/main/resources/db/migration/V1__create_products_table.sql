@@ -1,4 +1,5 @@
-INSERT INTO product (name) VALUES 
+
+INSERT INTO products (name) VALUES 
 ('Laptop'),
 ('Smartphone'),
 ('Tablet'),
@@ -8,4 +9,5 @@ INSERT INTO product (name) VALUES
 ('Monitor'),
 ('Printer'),
 ('Scanner'),
+('Zbii'),
 ('Webcam');

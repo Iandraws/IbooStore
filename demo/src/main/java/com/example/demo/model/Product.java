@@ -3,12 +3,11 @@ package com.example.demo.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "product") // Explicitly define table name
-public class Product { // Class name should be PascalCase
-
+@Table(name = "products") 
+public class Product { 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // Field name should be camelCase
+    private Long id; 
 
     @Column(nullable = false, unique = true)
     private String name;
